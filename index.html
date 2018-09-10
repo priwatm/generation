@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+            <div class="cover-container">
+<div class="info_table">
+   
+   <h2>Параметры по настройки генератора</h2>
+    <p>
+       <span>длина пароля зависит от введеных параметров</span><br>
+       <span>параметры:</span> <br>
+       <span>l-весь алфавит</span> <br>
+       <span>U-весь алфавит с большой буквы</span> <br>
+       <span>v-гласные буквы</span> <br>
+       <span>V-гласные большые буквы</span> <br>
+       <span>c-согласные буквы</span> <br>
+       <span>C-согласные большые буквы</span> <br>
+       <span>a-рандом</span> <br>
+    </p>
+</div>
+
+
+
+
+
+
+                <div class="inner">
+                    <div class="inner-passwords">
+                    
+                            parameters: <input id=input type="text" name="fname" pattern="[l,U,v,V,c,C,9,#,a,A]+" value="avccvc99" required><br>
+                            <br>
+                            <span></span>
+                        <button onclick="doPasswords()">Try it <span class="glyphicon glyphicon-refresh"></span></button>
+                        <ul id="passwords" class="list-unstyled"></ul>
+                    </div>
+                </div>
+
+            </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
